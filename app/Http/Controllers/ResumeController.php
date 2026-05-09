@@ -14,6 +14,9 @@ class ResumeController extends Controller
 
         // dd(storage_path('resumes'));
         // dd($resume);
+
+        $test = Resume::fromArray($resumeData);
+        // dd($test);
         
         
         return view('resume', ['resume' => Resume::fromArray($resumeData)]);

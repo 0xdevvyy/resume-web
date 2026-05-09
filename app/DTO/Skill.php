@@ -4,11 +4,13 @@ declare(strict_types=1);
 
 namespace App\DTO;
 
+use App\Enums\SkillEnum;
+
 readonly class Skill
 {
     public function __construct(
         public string $name = '',
-        public string $level = '',
+        public ?SkillEnum $level,
         public array $keywords = [],
     ) {}
 
@@ -16,7 +18,7 @@ readonly class Skill
     {
         return new self(
             name: $data['name'] ?? '',
-            level: $data['level'] ?? '',
+            level: SkillEnum::fromString($data['level'] ?? ''),
             keywords: $data['keywords'] ?? [],
         );
     }
