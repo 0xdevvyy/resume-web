@@ -16,6 +16,7 @@ class ResumeController extends Controller
         // dd($resume);
 
         $test = Resume::fromArray($resumeData);
+        
         // dd($test);
         
         

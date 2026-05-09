@@ -1,110 +1,289 @@
 {
-  "basics": {
-    "name": "John Doe",
-    "label": "Programmer",
-    "image": "",
-    "email": "john@gmail.com",
-    "phone": "(912) 555-4321",
-    "url": "https://johndoe.com",
-    "summary": "A summary of John Doe…",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+    "basics": {
+        "name": "Reniel John Supan",
+        "label": "Junior Web Developer",
+        "image": "https://images.unsplash.com/photo-1644004680400-b9425e4efa18?q=80&w=2819&auto=format&fit=crop",
+        "email": "supanrenieljohn@gmail.com",
+        "phone": "09318060507",
+        "url": "https://example.com/johnwick",
+        "summary": "",
+        "location": {
+            "address": "Tarlac",
+            "postalCode": "2315",
+            "city": "Tarlac",
+            "countryCode": "PH",
+            "region": "Tarlac"
+        },
+        "profiles": [{
+            "network": "GitHub",
+            "username": "0xdevvyy",
+            "url": "https://github.com/0xdevvyy"
+        }]
     },
-    "profiles": [{
-      "network": "Twitter",
-      "username": "john",
-      "url": "https://twitter.com/john"
+    "work": [{
+        "name": "Dominican College of Tarlac",
+        "position": "Software Developer Intern (OJT)",
+        "url": "https://dct.edu.ph",
+        "startDate": "2024-12-01",
+        "endDate": "2025-04-30",
+        "summary": "Assisted in maintaining and improving school systems and web applications, including redesigning interfaces, modernizing legacy PHP applications, and optimizing database performance.",
+        "highlights": [
+          "Assisted in maintaining and redesigning the official Dominican College of Tarlac website",
+          "Enhanced the Tabulation System by building and improving the scoring and ranking UI",
+          "Upgraded parts of a legacy PHP 5 codebase to PHP 8.3 by resolving deprecated functions and improving maintainability",
+          "Performed database management tasks including query optimization, indexing, troubleshooting, and relationship design",
+          "Contributed to improving system performance and overall usability of internal applications"
+        ]
+    },
+    {
+        "name": "Freelancing",
+        "position": "Software Developer",
+        "url": "",
+        "startDate": "2025-07-01",
+        "endDate": "2025-11-30",
+        "summary": "Developed academic and capstone web applications for clients using Laravel and MySQL while handling complete project implementation independently.",
+        "highlights": [
+          "Developed academic and capstone web applications based on client requirements using Laravel and MySQL",
+          "Implemented Role-Based Access Control (RBAC) for secure user permission management",
+          "Designed database structures and relationships for scalable application architecture",
+          "Handled end-to-end project implementation from planning to deployment",
+          "Strengthened independent development and problem-solving skills through freelance project delivery"
+        ]
+    }],
+    "volunteer": [{
+        "organization": "Code for Good Foundation",
+        "position": "Pro Bono Developer",
+        "url": "",
+        "startDate": "2020-01-01",
+        "endDate": "2024-01-01",
+        "summary": "Developing applications for animal shelters and pet adoption services. Because every dog deserves a loving home.",
+        "highlights": [
+            "Built a nationwide pet adoption platform",
+            "Created mobile apps for animal rescue organizations",
+            "Donated 500+ hours of development time",
+            "Helped find homes for over 10,000 animals"
+        ]
+    }],
+    "education": [{
+        "institution": "MIT",
+        "url": "",
+        "area": "Computer Science",
+        "studyType": "Bachelor of Science",
+        "startDate": "2010-09-01",
+        "endDate": "2014-05-31",
+        "score": "4.0",
+        "courses": [
+            "Advanced Algorithms and Data Structures",
+            "Distributed Systems Architecture",
+            "Cybersecurity and Cryptography",
+            "Machine Learning and AI",
+            "Software Engineering Principles"
+        ]
+    }, {
+        "institution": "The Continental Academy",
+        "url": "",
+        "area": "Advanced Software Security",
+        "studyType": "Professional Certification",
+        "startDate": "2015-01-01",
+        "endDate": "2015-12-31",
+        "score": "Perfect",
+        "courses": [
+            "Penetration Testing and Ethical Hacking",
+            "Advanced Encryption Techniques",
+            "System Hardening and Security Auditing"
+        ]
+    }],
+    "awards": [{
+        "title": "Developer of the Year",
+        "date": "2023-11-01",
+        "awarder": "Tech Excellence Awards",
+        "summary": "Recognized for exceptional technical skills and unwavering commitment to code quality."
+    }, {
+        "title": "Bug Bounty Hall of Fame",
+        "date": "2022-06-15",
+        "awarder": "Global Security Initiative",
+        "summary": "Discovered and responsibly disclosed critical vulnerabilities in major platforms."
+    }, {
+        "title": "Open Source Contributor Award",
+        "date": "2021-03-20",
+        "awarder": "GitHub",
+        "summary": "Outstanding contributions to open source projects and community mentorship."
+    }],
+    "certificates": [{
+        "name": "AWS Solutions Architect Professional",
+        "date": "2023-08-15",
+        "issuer": "Amazon Web Services",
+        "url": ""
+    }, {
+        "name": "Certified Kubernetes Administrator",
+        "date": "2023-05-10",
+        "issuer": "Cloud Native Computing Foundation",
+        "url": ""
+    }, {
+        "name": "Google Cloud Professional Developer",
+        "date": "2022-11-20",
+        "issuer": "Google Cloud",
+        "url": ""
+    }],
+    "publications": [{
+        "name": "The Art of Clean Code: Precision in Programming",
+        "publisher": "Tech Publishing House",
+        "releaseDate": "2023-04-01",
+        "url": "",
+        "summary": "A comprehensive guide to writing maintainable, efficient code with the precision of a master craftsman."
+    }, {
+        "name": "Bulletproof Systems: Building Unbreakable Software Architecture",
+        "publisher": "Developer's Digest",
+        "releaseDate": "2022-09-15",
+        "url": "",
+        "summary": "Strategies for creating resilient, fault-tolerant systems that never fail when it matters most."
+    }],
+    "skills": [
+        {
+          "name": "Programming Languages",
+          "level": "Intermediate",
+          "keywords": [
+            "PHP",
+            "Java",
+            "JavaScript",
+            "HTML",
+            "CSS"
+          ]
+        },
+        {
+          "name": "Frameworks & Libraries",
+          "level": "Intermediate",
+          "keywords": [
+            "Laravel",
+            "CodeIgniter",
+            "ReactJS",
+            "Tailwind CSS",
+            "Bootstrap"
+          ]
+        },
+        {
+          "name": "Tools & Version Control",
+          "level": "Intermediate",
+          "keywords": [
+            "Git",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Database Management",
+          "level": "Intermediate",
+          "keywords": [
+            "PostgreSQL",
+            "MySQL",
+            "SQLite",
+            "SQL"
+          ]
+        },
+        {
+          "name": "Content Management Systems",
+          "level": "Intermediate",
+          "keywords": [
+            "WordPress"
+          ]
+    }],
+    "languages": [{
+        "language": "English",
+        "fluency": "Native speaker"
+    }, {
+        "language": "JavaScript",
+        "fluency": "Fluent (the language of the web)"
+    }, {
+        "language": "Python",
+        "fluency": "Fluent (speaks snake)"
+    }, {
+        "language": "Russian",
+        "fluency": "Conversational"
+    }],
+    "interests": [{
+        "name": "Canine Companions",
+        "keywords": [
+            "Dog Training",
+            "Pet Care Apps",
+            "Animal Welfare Technology"
+        ]
+    }, {
+        "name": "Precision Engineering",
+        "keywords": [
+            "Mechanical Keyboards",
+            "Custom PC Building",
+            "3D Printing",
+            "Woodworking"
+        ]
+    }, {
+        "name": "Martial Arts & Fitness",
+        "keywords": [
+            "Brazilian Jiu-Jitsu",
+            "Fitness Tracking Apps",
+            "Workout Optimization"
+        ]
+    }, {
+        "name": "Classic Cars",
+        "keywords": [
+            "Automotive Electronics",
+            "Car Restoration",
+            "Vintage Mustangs"
+        ]
+    }],
+    "references": [{
+        "name": "Winston (The Continental Manager)",
+        "reference": "John is the most reliable developer I've ever worked with. When he commits to a deadline, consider it done. His code is as clean as his reputation is legendary. I would trust him with our most critical systems without hesitation."
+    }, {
+        "name": "Charon (Senior DevOps Engineer)",
+        "reference": "Working with John is like having a guardian angel for your infrastructure. He anticipates problems before they happen and solves them with surgical precision. His attention to detail is unmatched."
+    }, {
+        "name": "The Bowery King (CTO, Underground Tech Collective)",
+        "reference": "John Wick doesn't just write code - he crafts digital art. His solutions are elegant, efficient, and absolutely bulletproof. He's the developer you call when failure is not an option."
+    }],
+    "projects": [
+    {
+      "name": "Systems ID",
+      "startDate": "2025-01-01",
+      "endDate": "2025-03-31",
+      "description": "A web-based ID management system developed during internship for generating and managing student identification cards with customizable templates and automated export functionality.",
+      "highlights": [
+        "Developed a web-based student ID management system",
+        "Integrated search and filtering by education level for easier student record retrieval",
+        "Implemented drag-and-drop customization for ID templates using InteractJS",
+        "Automated front and back ID card generation as PNG files using html2canvas",
+        "Built features for MIS staff to upload and manage custom ID templates"
+      ],
+      "technologies": [
+        "CodeIgniter",
+        "PHP",
+        "JavaScript",
+        "AJAX",
+        "jQuery",
+        "InteractJS",
+        "html2canvas",
+        "Visual Studio Code"
+      ],
+      "url": ""
+    },
+    {
+      "name": "Pathfit3",
+      "startDate": "2024-06-01",
+      "endDate": "2024-11-30",
+      "description": "An Android application developed as a capstone project that teaches students about dance through interactive lessons with offline access support.",
+      "highlights": [
+        "Developed an Android application using Java focused on dance education",
+        "Integrated SQLite for offline lesson storage and accessibility",
+        "Designed UI/UX elements to improve usability and smooth user experience",
+        "Managed version control and collaboration using Git and GitHub",
+        "Created application prototypes and interface designs using Figma"
+      ],
+      "technologies": [
+        "Java",
+        "Android Studio",
+        "SQLite",
+        "Figma",
+        "Git",
+        "GitHub"
+      ],
+      "url": ""
     }]
-  },
-  "work": [{
-    "name": "Company",
-    "position": "President",
-    "url": "https://company.com",
-    "startDate": "2013-01-01",
-    "endDate": "2014-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Started the company"
-    ]
-  }],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
-  "education": [{
-    "institution": "University",
-    "url": "https://institution.com/",
-    "area": "Software Development",
-    "studyType": "Bachelor",
-    "startDate": "2011-01-01",
-    "endDate": "2013-01-01",
-    "score": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
-  }],
-  "skills": [{
-    "name": "Web Development",
-    "level": "Master",
-    "keywords": [
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ]
-  }],
-  "languages": [{
-    "language": "English",
-    "fluency": "Native speaker"
-  }],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference…"
-  }],
-  "projects": [{
-    "name": "Project",
-    "startDate": "2019-01-01",
-    "endDate": "2021-01-01",
-    "description": "Description...",
-    "highlights": [
-      "Won award at AIHacks 2016"
-    ],
-    "url": "https://project.com/"
-  }]
 }
